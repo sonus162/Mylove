@@ -1,275 +1,185 @@
 @font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Tan";
+    src: url("Tan/TAN-PEARL.woff2") format("woff2"),
+        url("Tan/TAN-PEARL.woff") format("woff");
     font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2)
-        format("woff2");
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
-        U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2)
-        format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2)
-        format("woff2");
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
-        U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2)
-        format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2)
-        format("woff2");
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
-        U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2)
-        format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2)
-        format("woff2");
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
-        U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2)
-        format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2)
-        format("woff2");
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
-        U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: "Sen";
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2)
-        format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-BoldItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-BoldItalic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyBoldItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyBoldItalic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-BlackItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-BlackItalic.woff") format("woff");
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Black.woff2") format("woff2"),
-        url("Poppins/Poppins-Black.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyBlack.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyBlack.woff") format("woff");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Bold.woff2") format("woff2"),
-        url("Poppins/Poppins-Bold.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyBlackItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyBlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyBold.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyBold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Italic.woff2") format("woff2"),
-        url("Poppins/Poppins-Italic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyHeavyItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyHeavyItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyHeavy.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyHeavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyItalic.woff") format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-ExtraBold.woff2") format("woff2"),
-        url("Poppins/Poppins-ExtraBold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-ExtraLight.woff2") format("woff2"),
-        url("Poppins/Poppins-ExtraLight.woff") format("woff");
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-ExtraLightItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-ExtraLightItalic.woff") format("woff");
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-ExtraBoldItalic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Light.woff2") format("woff2"),
-        url("Poppins/Poppins-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-LightItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-LightItalic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyLightItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyLightItalic.woff") format("woff");
     font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Medium.woff2") format("woff2"),
-        url("Poppins/Poppins-Medium.woff") format("woff");
-    font-weight: 500;
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyLight.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyLight.woff") format("woff");
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-MediumItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-MediumItalic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyMediumItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyMediumItalic.woff") format("woff");
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-SemiBold.woff2") format("woff2"),
-        url("Poppins/Poppins-SemiBold.woff") format("woff");
-    font-weight: 600;
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyMedium.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyMedium.woff") format("woff");
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Thin.woff2") format("woff2"),
-        url("Poppins/Poppins-Thin.woff") format("woff");
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-Regular.woff2") format("woff2"),
-        url("Poppins/Poppins-Regular.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-Gilroy.woff2") format("woff2"),
+        url("./Gilroy/SVN-Gilroy.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-SemiBoldItalic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroySemiBoldItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroySemiBoldItalic.woff") format("woff");
     font-weight: 600;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins/Poppins-ThinItalic.woff2") format("woff2"),
-        url("Poppins/Poppins-ThinItalic.woff") format("woff");
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroySemiBold.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroySemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyThinItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyThinItalic.woff") format("woff");
     font-weight: 100;
     font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy";
+    src: url("./Gilroy/SVN-GilroyThin.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyThin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy XBold";
+    src: url("./Gilroy/SVN-GilroyXBoldItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyXBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy XBold";
+    src: url("./Gilroy/SVN-GilroyXBold.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyXBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy XLight";
+    src: url("./Gilroy/SVN-GilroyXLightItalic.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyXLightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Gilroy XLight";
+    src: url("./Gilroy/SVN-GilroyXLight.woff2") format("woff2"),
+        url("./Gilroy/SVN-GilroyXLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
     font-display: swap;
 }

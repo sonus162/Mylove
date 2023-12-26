@@ -5,12 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/fonts/font.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__nav">
+                    <h2 class="header__logo">My Love</h2>
+                    <ul class="nav__list">
+                        <li>
+                            <a href="" class="nav__link">About us</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Equipment</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Blog</a>
+                        </li>
+                    </ul>
+                    <span class="nav__year">3</span>
+                </div>
+                <div class="header__content">
+                    <span class="sub-title">A Hiking guide</span>
+                    <h1 class="title">Be prepared for the Mountains and beyond!</h1>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <div class="story">
+        <div class="container">
+            <div class="story__list">
+                <div class="story__item">
+                    <div class="item__content">
+                        <span class="item__nummber">01</span>
+                        <span class="sub-title">Year 2021</span>
+                        <h2 class="title item__title">Confessing love during covid season</h2>
+                        <p class="desc">At 11:00 p.m. on December 11, 2021, after a period of research and anticipation,
+                            I mustered up the courage to confess my love to you. hihi :)), it took a week for her to
+                            reply to me and I got the answer I wanted. kkk </p>
+                    </div>
+                    <div class="item__thumbnail">
+                        <div>
+                            <img src="./assets/img/2021/1.JPG" alt="" class="item__thumb">
+                        </div>
+                        <div>
+                            <img src="./assets/img/2021/2.JPG" alt="" class="item__thumb">
+                        </div>
+                    </div>
+                </div>
+                <div class="story__item odd">
+                    <div class="item__content">
+                        <span class="item__nummber">02</span>
+                        <span class="sub-title">GEt Started</span>
+                        <h2 class="title item__title">What level of hiker are you?</h2>
+                        <p class="desc">Determining what level of hiker you are can be an important tool when planning
+                            future hikes. This hiking level guide will help you plan hikes according to different hike
+                            ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you
+                            – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
+                    </div>
+                    <div class="item__thumbnail">
+                        <div>
+                            <img src="./assets/img/img1.png" alt="" class="item__thumb">
+                        </div>
+                        <div>
+                            <img src="./assets/img/img1.png" alt="" class="item__thumb">
+                        </div>
+                    </div>
+                </div>
+                <div class="story__item">
+                    <div class="item__content">
+                        <span class="item__nummber">01</span>
+                        <span class="sub-title">GEt Started</span>
+                        <h2 class="title item__title">What level of hiker are you?</h2>
+                        <p class="desc">Determining what level of hiker you are can be an important tool when planning
+                            future hikes. This hiking level guide will help you plan hikes according to different hike
+                            ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you
+                            – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
+                    </div>
+                    <div class="item__thumbnail">
+                        <img src="./assets/img/hinh2.jpg" alt="" class="item__thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.item__thumbnail').slick();
+    </script>
 </body>
 
 </html>
