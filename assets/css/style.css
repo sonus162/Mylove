@@ -89,6 +89,10 @@ body {
     font-weight: 700;
     line-height: 1.78;
 }
+.heading {
+    text-align: center;
+    padding: 30px 0;
+}
 #counter {
     display: flex;
     align-items: center;

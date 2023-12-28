@@ -10,12 +10,14 @@
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/libs/sakura/sakura.css">
     <link rel="stylesheet" href="./assets/fonts/font.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="header__body">
@@ -64,8 +66,19 @@
         </div>
     </header>
 
+    <div class="clock">
+        <div class="container">
+            <div class="clock__body">
+                <h2 class="clock__title"></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Story -->
     <div class="story" id="story">
         <div class="container">
+            <h2 class="heading">Our Story</h2>
             <div class="story__list">
                 <div class="story__item">
                     <div class="item__content">
@@ -164,6 +177,7 @@
         referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/libs/sakura/sakura.js"></script>
     <script src="./assets/js/style.js"></script>
     <script>
         $('.item__thumbnail').slick();
